@@ -1,0 +1,22 @@
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Roboto Slab', serif; */
+
+body {
+    /* background: #2D3A3A; */
+    background: #040F0F;
+    font-family: 'Raleway', sans-serif;
+}
+
+#mainnavbar .navbar-brand {
+    color: #97BFD8;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainnavbar .nav-link {
+    color: white;
+}
+
+#mainnavbar .nav-link:hover {
+    color: #97BFD8;
+}
