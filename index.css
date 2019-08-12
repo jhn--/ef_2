@@ -20,3 +20,42 @@ body {
 #mainnavbar .nav-link:hover {
     color: #97BFD8;
 }
+
+/* h1 {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+} */
+
+#headingGroup span {
+    color: #97BFD8;
+    font-family: 'Raleway', sans-serif;
+}
+
+#headingGroup h1 {
+    margin-bottom: 0%;
+    font-weight: 100;
+    font-size: 4rem;
+    /* font-family: 'Roboto Slab', serif; */
+}
+
+/* resize headingGroup's h1 when the viewport's max-width becomes 1200px */
+@media (max-width: 1400px) {
+    #headingGroup h1 {
+        margin-bottom: 0%;
+        font-weight: 100;
+        font-size: 3rem;
+        /* font-family: 'Roboto Slab', serif; */
+    }
+}
+
+@media (max-width: 991px) {
+    #mainnavbar .navbar-brand {
+        color: black;
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+
+    #mainnavbar .nav-link:hover {
+        color: black;
+    }
+}
