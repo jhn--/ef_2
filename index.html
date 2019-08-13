@@ -28,9 +28,8 @@
 </head>
 
 <body>
-
     <!-- nav -->
-    <nav id="mainnavbar" class="navbar fixed-top navbar-dark navbar-expand-md py-0">
+    <nav id="mainNav" class="navbar fixed-top navbar-dark navbar-expand-md py-0">
         <!-- brand -->
         <a class="navbar-brand ml-3" href="#">e<sup>f</sup></a>
         <!-- button -->
@@ -88,7 +87,7 @@
             </div>
             <div class="col-lg-6 text-center order-1 order-lg-2">
                 <div class="row justify-content-center">
-                    <div class="blurb col-10 col-lg-8 text-white">
+                    <div class="blurb col-10 col-lg-8 text-white mb-5 mb-lg-0">
                         <h2>Movement is life</h2>
                         <i class="fas fa-wave-square d-none d-lg-inline"></i>
                         <p class="lead">
@@ -103,19 +102,14 @@
                             And there's so much more we can do, when
                             we have everyone on our side.
                         </p>
-                        <br><br><br>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- section -->
-    <section class="container-fluid px-0">
         <div class="row align-items-center content">
             <div class="col-lg-6 text-center">
                 <div class="row justify-content-center">
-                    <div class="blurb col-10 col-lg-8 text-white">
+                    <div class="blurb col-10 col-lg-8 text-white mb-5 mb-lg-0">
                         <h2>Mastery in motion</h2>
                         <i class="fas fa-wave-square d-none d-lg-inline"></i>
                         <p class="lead">
@@ -127,13 +121,12 @@
                         <p class="lead">
                             Now ebb back and pass the flow to the next dreamer.
                         </p>
-                        <br><br><br>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <img class="img-fluid"
-                    src="https://images.unsplash.com/photo-1504647164485-1d91e1d0a112?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+                    src="https://images.unsplash.com/photo-1502519144081-acca18599776?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
                     alt="">
             </div>
         </div>
@@ -148,6 +141,14 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNav");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            })
+        })
     </script>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
