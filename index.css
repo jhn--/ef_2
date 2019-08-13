@@ -38,6 +38,7 @@ body {
 
 .navbar.scrolled {
     background: black;
+    transition: background 500ms;
 }
 
 /* resize headingGroup's h1 when the viewport's max-width becomes 1200px */
