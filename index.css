@@ -50,21 +50,26 @@ body {
 }
 
 /* change navbar's links'colors when the viewport's max-width becomes 1200px */
-/* @media (max-width: 991px) {
+@media (max-width: 991px) {
+    #mainNav {
+        background: black;
+    }
+
     #mainNav .navbar-brand {
-        color: black;
+        /* color: black; */
+        color: #97BFD8;
         font-size: 1.5rem;
         font-weight: 100;
     }
 
     #mainNav .nav-link {
-        color: black;
+        color: white;
     }
 
     #mainNav .nav-link:hover {
-        color: white;
+        color: #97BFD8;
     }
-} */
+}
 
 .blurb h2 {
     color: #97BFD8;
