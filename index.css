@@ -1,6 +1,11 @@
 /* font-family: 'Raleway', sans-serif; */
 /* font-family: 'Roboto Slab', serif; */
 
+/* h1 {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+} */
+
 body {
     /* background: #2D3A3A; */
     background: #040F0F;
@@ -21,21 +26,14 @@ body {
     color: #97BFD8;
 }
 
-/* h1 {
-    font-family: 'Roboto Slab', serif;
-    color: white;
-} */
-
 #headingGroup span {
     color: #97BFD8;
-    /* font-family: 'Raleway', sans-serif; */
 }
 
 #headingGroup h1 {
     margin-bottom: 0%;
     font-weight: 100;
     font-size: 4rem;
-    /* font-family: 'Roboto Slab', serif; */
 }
 
 /* resize headingGroup's h1 when the viewport's max-width becomes 1200px */
@@ -44,7 +42,6 @@ body {
         margin-bottom: 0%;
         font-weight: 100;
         font-size: 3rem;
-        /* font-family: 'Roboto Slab', serif; */
     }
 }
 
@@ -55,8 +52,12 @@ body {
         font-weight: 100;
     }
 
-    #mainnavbar .nav-link:hover {
+    #mainnavbar .nav-link {
         color: black;
+    }
+
+    #mainnavbar .nav-link:hover {
+        color: white;
     }
 }
 
@@ -69,7 +70,6 @@ body {
     font-size: 1.25rem;
     line-height: 2.0;
 }
-
 
 .content {
     margin-top: 100px;
