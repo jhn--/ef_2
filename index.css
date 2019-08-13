@@ -12,17 +12,17 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-#mainnavbar .navbar-brand {
+#mainNav .navbar-brand {
     color: #97BFD8;
     font-size: 1.5rem;
     font-weight: 100;
 }
 
-#mainnavbar .nav-link {
+#mainNav .nav-link {
     color: white;
 }
 
-#mainnavbar .nav-link:hover {
+#mainNav .nav-link:hover {
     color: #97BFD8;
 }
 
@@ -36,6 +36,10 @@ body {
     font-size: 4rem;
 }
 
+.navbar.scrolled {
+    background: black;
+}
+
 /* resize headingGroup's h1 when the viewport's max-width becomes 1200px */
 @media (max-width: 1400px) {
     #headingGroup h1 {
@@ -45,21 +49,22 @@ body {
     }
 }
 
-@media (max-width: 991px) {
-    #mainnavbar .navbar-brand {
+/* change navbar's links'colors when the viewport's max-width becomes 1200px */
+/* @media (max-width: 991px) {
+    #mainNav .navbar-brand {
         color: black;
         font-size: 1.5rem;
         font-weight: 100;
     }
 
-    #mainnavbar .nav-link {
+    #mainNav .nav-link {
         color: black;
     }
 
-    #mainnavbar .nav-link:hover {
+    #mainNav .nav-link:hover {
         color: white;
     }
-}
+} */
 
 .blurb h2 {
     color: #97BFD8;
